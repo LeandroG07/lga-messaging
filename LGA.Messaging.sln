@@ -3,9 +3,33 @@ Microsoft Visual Studio Solution File, Format Version 12.00
 # Visual Studio Version 17
 VisualStudioVersion = 17.1.32421.90
 MinimumVisualStudioVersion = 10.0.40219.1
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "LGA.Messaging.Core", "src\LGA.Messaging.Core\LGA.Messaging.Core.csproj", "{DB9D2097-D68E-46A7-9F8B-BDFEA653C9FD}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "src", "src", "{9B8468FB-DB7A-4BF4-AE27-69B0C831FC77}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "LGA.Messaging.Core.Spec", "src\LGA.Messaging.Core.Spec\LGA.Messaging.Core.Spec.csproj", "{C0C55FC3-1857-42AB-A931-C58BB69D5025}"
+EndProject
 Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{DB9D2097-D68E-46A7-9F8B-BDFEA653C9FD}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{DB9D2097-D68E-46A7-9F8B-BDFEA653C9FD}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{DB9D2097-D68E-46A7-9F8B-BDFEA653C9FD}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{DB9D2097-D68E-46A7-9F8B-BDFEA653C9FD}.Release|Any CPU.Build.0 = Release|Any CPU
+		{C0C55FC3-1857-42AB-A931-C58BB69D5025}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{C0C55FC3-1857-42AB-A931-C58BB69D5025}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{C0C55FC3-1857-42AB-A931-C58BB69D5025}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{C0C55FC3-1857-42AB-A931-C58BB69D5025}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(NestedProjects) = preSolution
+		{DB9D2097-D68E-46A7-9F8B-BDFEA653C9FD} = {9B8468FB-DB7A-4BF4-AE27-69B0C831FC77}
+		{C0C55FC3-1857-42AB-A931-C58BB69D5025} = {9B8468FB-DB7A-4BF4-AE27-69B0C831FC77}
 	EndGlobalSection
 	GlobalSection(ExtensibilityGlobals) = postSolution
 		SolutionGuid = {47603815-3343-49FB-8EEB-1A2E313DA9C6}
