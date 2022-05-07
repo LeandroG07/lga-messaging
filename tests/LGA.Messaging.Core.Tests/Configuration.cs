@@ -23,15 +23,10 @@ namespace LGA.Messaging.Core.Tests
                  .AddJsonFile("appsettings.json")
                  .Build();            
             
-            services.AddSingleton(configuration.Factory<MessagingOption>);
-            
-            var provider = services.BuildServiceProvider();
-
-            var option = provider.GetRequiredService<MessagingOption>();
-            services.AddScoped(_ => new MessagingConnection(option!));
-
+            services.AddSingleton(configuration.Factory<MessagingOption>);                       
+            services.AddScoped<MessagingConnection>();
             services.AddScoped<ISerializer, Serializer>();
-
+            
             return services;
         }
 

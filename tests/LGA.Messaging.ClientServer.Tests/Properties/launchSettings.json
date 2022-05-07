@@ -1,0 +1,11 @@
+﻿{
+  "profiles": {
+    "LGA.Messaging.ClientServer.Tests": {
+      "commandName": "Project",
+      "dotnetRunMessages": true,
+      "environmentVariables": {
+        "DOTNET_ENVIRONMENT": "Development"
+      }
+    }
+  }
+}

@@ -10,5 +10,9 @@ namespace LGA.Messaging.Core.Spec
 
         void StartListener();
 
+        delegate void OnReceivedHandler(T model);
+
+        event OnReceivedHandler? OnReceived;
+
     }
 }

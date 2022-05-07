@@ -65,9 +65,7 @@ namespace LGA.Messaging.Core
             OnReceived?.Invoke(model);
         }
 
-        public delegate void OnReceivedHandler(T model);
-
-        public event OnReceivedHandler? OnReceived;
+        public event IMessagingQueue<T>.OnReceivedHandler? OnReceived;
 
         private IModel ConfigureChannel()
         {

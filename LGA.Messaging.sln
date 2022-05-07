@@ -13,6 +13,8 @@ Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "tests", "tests", "{7A0BF65D
 EndProject
 Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "LGA.Messaging.Core.Tests", "tests\LGA.Messaging.Core.Tests\LGA.Messaging.Core.Tests.csproj", "{587C00A5-F236-431F-9EB2-4BE863E726A0}"
 EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "LGA.Messaging.ClientServer.Tests", "tests\LGA.Messaging.ClientServer.Tests\LGA.Messaging.ClientServer.Tests.csproj", "{EAF9C2B7-BDB7-4E60-8F3C-6DF156A95F90}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -31,6 +33,10 @@ Global
 		{587C00A5-F236-431F-9EB2-4BE863E726A0}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{587C00A5-F236-431F-9EB2-4BE863E726A0}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{587C00A5-F236-431F-9EB2-4BE863E726A0}.Release|Any CPU.Build.0 = Release|Any CPU
+		{EAF9C2B7-BDB7-4E60-8F3C-6DF156A95F90}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{EAF9C2B7-BDB7-4E60-8F3C-6DF156A95F90}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{EAF9C2B7-BDB7-4E60-8F3C-6DF156A95F90}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{EAF9C2B7-BDB7-4E60-8F3C-6DF156A95F90}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
@@ -39,6 +45,7 @@ Global
 		{DB9D2097-D68E-46A7-9F8B-BDFEA653C9FD} = {9B8468FB-DB7A-4BF4-AE27-69B0C831FC77}
 		{C0C55FC3-1857-42AB-A931-C58BB69D5025} = {9B8468FB-DB7A-4BF4-AE27-69B0C831FC77}
 		{587C00A5-F236-431F-9EB2-4BE863E726A0} = {7A0BF65D-A405-4F7E-934F-3DEFF7E2BF4D}
+		{EAF9C2B7-BDB7-4E60-8F3C-6DF156A95F90} = {7A0BF65D-A405-4F7E-934F-3DEFF7E2BF4D}
 	EndGlobalSection
 	GlobalSection(ExtensibilityGlobals) = postSolution
 		SolutionGuid = {47603815-3343-49FB-8EEB-1A2E313DA9C6}
