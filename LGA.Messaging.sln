@@ -3,15 +3,15 @@ Microsoft Visual Studio Solution File, Format Version 12.00
 # Visual Studio Version 17
 VisualStudioVersion = 17.1.32421.90
 MinimumVisualStudioVersion = 10.0.40219.1
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "LGA.Messaging.Core", "src\LGA.Messaging.Core\LGA.Messaging.Core.csproj", "{DB9D2097-D68E-46A7-9F8B-BDFEA653C9FD}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "LGA.Messaging.Core", "src\LGA.Messaging.Core\LGA.Messaging.Core.csproj", "{DB9D2097-D68E-46A7-9F8B-BDFEA653C9FD}"
 EndProject
 Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "src", "src", "{9B8468FB-DB7A-4BF4-AE27-69B0C831FC77}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "LGA.Messaging.Core.Spec", "src\LGA.Messaging.Core.Spec\LGA.Messaging.Core.Spec.csproj", "{C0C55FC3-1857-42AB-A931-C58BB69D5025}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "LGA.Messaging.Core.Spec", "src\LGA.Messaging.Core.Spec\LGA.Messaging.Core.Spec.csproj", "{C0C55FC3-1857-42AB-A931-C58BB69D5025}"
 EndProject
 Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "tests", "tests", "{7A0BF65D-A405-4F7E-934F-3DEFF7E2BF4D}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "LGA.Messaging.Core.Tests", "tests\LGA.Messaging.Core.Tests\LGA.Messaging.Core.Tests.csproj", "{587C00A5-F236-431F-9EB2-4BE863E726A0}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "LGA.Messaging.Core.Tests", "tests\LGA.Messaging.Core.Tests\LGA.Messaging.Core.Tests.csproj", "{587C00A5-F236-431F-9EB2-4BE863E726A0}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
