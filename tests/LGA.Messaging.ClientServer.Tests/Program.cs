@@ -2,8 +2,8 @@ using LGA.Messaging.ClientServer.Tests;
 using LGA.Messaging.ClientServer.Tests.Services;
 using LGA.Messaging.Core;
 using LGA.Messaging.Core.Serialization;
-using LGA.Messaging.Core.Spec.Configuration;
-using LGA.Messaging.Core.Spec.Serialization;
+using LGA.Messaging.Core.Abstractions.Configuration;
+using LGA.Messaging.Core.Abstractions.Serialization;
 
 IHost host = Host.CreateDefaultBuilder(args)
     .ConfigureServices(services =>

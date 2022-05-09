@@ -4,7 +4,7 @@ using System.Linq;
 using System.Text;
 using System.Threading.Tasks;
 
-namespace LGA.Messaging.Core.Spec.Serialization
+namespace LGA.Messaging.Core.Abstractions.Serialization
 {
     public interface ISerializer
     {

@@ -1,5 +1,5 @@
-﻿using LGA.Messaging.Core.Spec;
-using LGA.Messaging.Core.Spec.Serialization;
+﻿using LGA.Messaging.Core.Abstractions;
+using LGA.Messaging.Core.Abstractions.Serialization;
 using RabbitMQ.Client;
 using RabbitMQ.Client.Events;
 using System.Text;

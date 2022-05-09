@@ -1,7 +1,7 @@
 ﻿using LGA.Messaging.Core.Serialization;
-using LGA.Messaging.Core.Spec;
-using LGA.Messaging.Core.Spec.Configuration;
-using LGA.Messaging.Core.Spec.Serialization;
+using LGA.Messaging.Core.Abstractions;
+using LGA.Messaging.Core.Abstractions.Configuration;
+using LGA.Messaging.Core.Abstractions.Serialization;
 using Microsoft.Extensions.Configuration;
 using Microsoft.Extensions.DependencyInjection;
 using System;

@@ -1,4 +1,4 @@
-﻿using LGA.Messaging.Core.Spec.Configuration;
+﻿using LGA.Messaging.Core.Abstractions.Configuration;
 using RabbitMQ.Client;
 
 namespace LGA.Messaging.Core

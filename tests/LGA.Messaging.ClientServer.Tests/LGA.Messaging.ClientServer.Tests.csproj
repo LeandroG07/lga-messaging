@@ -12,7 +12,7 @@
   </ItemGroup>
 
   <ItemGroup>
-    <ProjectReference Include="..\..\src\LGA.Messaging.Core.Spec\LGA.Messaging.Core.Spec.csproj" />
+    <ProjectReference Include="..\..\src\LGA.Messaging.Core.Spec\LGA.Messaging.Core.Abstractions.csproj" />
     <ProjectReference Include="..\..\src\LGA.Messaging.Core\LGA.Messaging.Core.csproj" />
   </ItemGroup>
 </Project>

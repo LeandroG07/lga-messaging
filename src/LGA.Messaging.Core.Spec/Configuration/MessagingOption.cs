@@ -1,5 +1,5 @@
 ﻿
-namespace LGA.Messaging.Core.Spec.Configuration
+namespace LGA.Messaging.Core.Abstractions.Configuration
 {
     public class MessagingOption
     {

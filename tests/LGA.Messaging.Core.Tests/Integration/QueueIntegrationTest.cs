@@ -1,4 +1,4 @@
-﻿using LGA.Messaging.Core.Spec.Serialization;
+﻿using LGA.Messaging.Core.Abstractions.Serialization;
 using Microsoft.Extensions.DependencyInjection;
 using Xunit;
 

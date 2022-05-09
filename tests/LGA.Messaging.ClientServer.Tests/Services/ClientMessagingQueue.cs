@@ -1,6 +1,6 @@
 ﻿using LGA.Messaging.Core;
-using LGA.Messaging.Core.Spec;
-using LGA.Messaging.Core.Spec.Serialization;
+using LGA.Messaging.Core.Abstractions;
+using LGA.Messaging.Core.Abstractions.Serialization;
 
 namespace LGA.Messaging.ClientServer.Tests.Services
 {

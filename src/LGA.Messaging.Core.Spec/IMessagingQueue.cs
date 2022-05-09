@@ -1,5 +1,5 @@
 ﻿
-namespace LGA.Messaging.Core.Spec
+namespace LGA.Messaging.Core.Abstractions
 {
     public interface IMessagingQueue<T>
     {
